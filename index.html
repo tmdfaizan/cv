@@ -1,73 +1,93 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html>
 
 <head>
   <meta charset="utf-8">
-  <title>tmd faizan </title>
-<link rel="stylesheet" href="css/style.css">
-
+  <title>Faizan</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento" rel="stylesheet">
+  <link rel="icon" href="favicon.ico">
 </head>
 
 <body>
-  <center>
-    <hr color="red" width="200" align="center" noshade>
-    <h1>MOHAMMED FAIZAN T</h1>
-    <hr color="red" width="200" align="center" noshade>
-  </center>
-  <table cellspacing="20">
-    <tr>
-      <th><img src="images/img.png" alt="faizan" height="200" width="200"></th>
-      <th>  <p><em>STUDENT OF<strong><a href="https://presidencyuniversity.in/">PRESIDENCY UNIVERSITY</a></strong></em></p>
-        <p>I am web developer and mobile developer application</p></th>
-    </tr>
-  </table>
+  <div class="nav-bar">
+    <ul>
+      <li><a href="#top-container">HOME</a></li>
+      <li><a href="#middle-container">ABOUT</a></li>
+      <li><a href="#contact-me">CONTACT</a></li>
+      <li><a href="myProject.html">MY WORK</a></li>
+    </ul>
+
+  </div>
+  <div id="top-container">
+    <img class="top-cloud" src="images/cloud.png" alt="cloud">
+    <div class="title-text">
+      <h1>I'm Faizan.</h1>
+      <h2>a <span class="pro">pro</span>grammer.</h2>
+    </div>
+    <img class="bottom-cloud" src="images/cloud.png" alt="cloud">
+    <img class="mountain" src="images/mountain.png" alt="mountain-img">
+  </div>
+
+  <div id="middle-container">
+    <div class="profile">
+      <img src="images/Faizan.png" alt="Faizan-profile-img">
+      <h2>Hello.</h2>
+      <!-- <p class="intro">I am an Web Developer...</p> -->
+      <div class="skill-row">
+        <img class="code-img" src="https://media.giphy.com/media/povenlBAIz14s/giphy.gif" alt="code-img">
+
+        <h3>Design & Development</h3>
+        <p>I started learning to code when I was 12 years old because I wanted to make my own video games. Over time, I have gained a wealth of experience designing and developing mobile and web applications.</p>
+        <!-- <h2>My Skills.</h2> -->
+      </div>
+      <div class="skill-row">
+                    <h2 style="text-align: center;">My Skills.</h2>
+            <img class="code-img2" src="images/c.png" alt="code-img">
+
+            <h3>C++ Programmer</h3>
+            <p>C++ is my favourite language.I do a lot of competitive programming,It gave me the power to solve problems and find the optimal solution,I love the way it is platform independent.</p>
+          </div>
+
+          <div class="skill-row">
+            <img class="code-img" src="images/java.png" alt="code-img">
+
+            <h3>Java Programmer</h3>
+            <p>Java is the second language I had learned,I have good experience using java and I had created few projects using JSP and spring framework for dynamic web pages.</p>
+          </div>
+
+          <div class="skill-row">
+            <img class="code-img2" src="images/analytics.png" alt="code-img">
+
+            <h3>Data Analyst</h3>
+            <p>I make use of raw data to analyse and try to predict results based on different Machine Learning algorithms. My interest also involves Deep learning where I like to train neutral nets.</p>
+          </div>
+
+          <div class="skill-row">
+            <img class="code-img" src="images/coding.png" alt="code-img">
+
+            <h3>Web Developer</h3>
+            <p>Ever since a boy I Loved Designing Websites.I have created multiple websites just for fun and overtime,I have gained a wealth of experience in developing web applications.</p>
+          </div>
+</div>
+    </div>
     <hr>
-  <h3>Project</h3>
-  <ul>
-    <li>Java</li>
-    <li>IOT</li>
-    <li>Blockchain</li>
-  </ul>
-  <h3>Work experince</h3>
-  <table border="3" cellspacing="10">
-    <thead>
-      <tr>
-        <th>date</th>
-        <th>work</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>2018-2022</td>
-        <td>developer</td>
-      </tr>
-      <tr>
-        <td>2022</td>
-        <td>software engineer</td>
-      </tr>
-    </tbody>
-  </table>
-  <h3>Skill</h3>
-  <table cellspacing="10">
-    <tr>
-      <td>C Program</td>
-      <td>⭐⭐⭐</td>
-    </tr>
-    <tr>
-      <td>Java</td>
-      <td>⭐⭐</td>
-    </tr>
-    <tr>
-      <td>Web development</td>
-      <td>⭐⭐⭐</td>
-    </tr>
-    <tr>
-      <td>Sql</td>
-      <td>⭐⭐⭐</td>
-    </tr>
-  </table>
-  <hr>
-  <a href="contact.html">CONTACT</a>
+
+    <div id="contact-me">
+      <h2>Get In Touch</h2>
+      <h3 class="h3-bottom">If you love coffee as much I do.</h3>
+      <p class="contact-message">Let's talk about Web Development<br>We can code while we drink coffee!</p>
+      <a class="btn" href="mailto:mohammedfaizant@gmail.com">CONTACT ME</a>
+    </div>
+  </div>
+
+
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/in/mohammed-faizan-t-a687a821a/">LinkedIn</a>
+    <a class="footer-link" href="https://twitter.com/TmdFaizan1">Twitter</a>
+    <a class="footer-link" href="https://github.com/tmdfaizan">GitHub</a>
+    <p class="copyright">© 2023 Faizan .</p>
+  </div>
 </body>
 
 </html>
